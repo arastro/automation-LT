@@ -1,25 +1,25 @@
-# Reto Automatizacion
-- Automatización website saucedemo
-   - escenario : Comprar un producto de la tienda
-### Tecnologias y patrones utilizados
+# Automation Challenge
+- Saucedemo website automation
+    - scenario : Buy a product from the store
+### Technologies and patterns used
 - Java
-- Gradle
-- SerenityBDD
+- gradle
+- Serenity BDD
 - Git
 - Cucumber
 - SOLID
-- Screenplay
+-Screenplay
 
-### Precondiciones
-- Se debe contar con google chrome version 102.0.5005.115 o descargar el chromedriver de la version de chrome que esta usando y agregarlos en la carpeta "drivers"
-- Tener instalado Gradle si se quiere ejecutar la prueba desde el terminal.
+### Preconditions
+- You must have google chrome version 102.0.5005.115 or download the chromedriver of the version of chrome you are using and add them to the "drivers" folder
+- Have Gradle installed if you want to run the test from the terminal.
 
-### Ejecucion
-La primera vez que se descargue debe crearse un build con el comando
+### Execution
+The first time the project is dowload, a build must be created with the command
 ```sh
-gradle clean test
+gradle build
 ```
-luego podemos ejecutar las pruebas
+then we can run the tests
 ```sh
 gradle clean test
 ```
